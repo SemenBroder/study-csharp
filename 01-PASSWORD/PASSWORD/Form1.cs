@@ -40,7 +40,7 @@ namespace PASSWORD
                 textBox3.Text = "Poprobuy escho";
             }
 
-            timer1.Start();
+            timer1.Start(); // Комментарий для теста Git.Bush
             
         }
 
