@@ -1,0 +1,7 @@
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\obj\Debug\Server-Test.csproj.CoreCompileInputs.cache
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\bin\Debug\Server-Client-Test.exe.config
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\bin\Debug\Server-Client-Test.exe
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\bin\Debug\Server-Client-Test.pdb
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\obj\Debug\Server-Client-Test.exe
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\obj\Debug\Server-Client-Test.pdb
+E:\projects\CSharp\Testing_stuff\Server-Client-Test\Server-Client-Test\obj\Debug\Server-Test.csprojAssemblyReference.cache
