@@ -29,7 +29,7 @@ namespace PASSWORD
         {
 
             
-            string date = DateTime.Now.ToString("yy.MM");
+            string date = DateTime.Now.ToString("yyMM");
             string dateFromUser = textBox2.Text;
             textBox4.Text = date;
             bool areEqual = String.Equals(date, dateFromUser, StringComparison.OrdinalIgnoreCase);
