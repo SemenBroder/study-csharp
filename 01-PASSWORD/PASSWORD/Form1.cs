@@ -27,26 +27,33 @@ namespace PASSWORD
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             
-            textBox4.Text = DateTime.Now.ToString(" yyyy.MMM ");
+            string date = DateTime.Now.ToString("yy.MM");
+            string dateFromUser = textBox2.Text;
+            textBox4.Text = date;
+            bool areEqual = String.Equals(date, dateFromUser, StringComparison.OrdinalIgnoreCase);
+            
 
-            if ( textBox2.Text == textBox4.Text)
-            {
-                textBox3.Text = "Vse poluchilos";
-
-            }
+            
+            if (areEqual == true)
+                textBox3.Text = "Всё получилось";
+             
+                
             else
-            {
-                textBox3.Text = "Poprobuy escho";
-            }
+                textBox3.Text = "Попробуй ёщё раз";
 
-            timer1.Start(); // Комментарий для теста Git.Bush
-            
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             textBox3.Text = null;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
